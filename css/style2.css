@@ -26,6 +26,24 @@ nav {
     margin: -68px 0 0 0;
     font-size: 22px;
 }
+#level-3 {
+    position: absolute;
+    right: 250px;
+    font-size: 40px; 
+}
+#left-links-3 {
+    position: absolute;
+    left: 250px;
+    font-size: 40px; 
+}
+.left-level-3 {
+    margin: 0 10px 0 10px;
+}
+.third-links {
+    /* outline: var(--outline); */
+    font-size: 40px;
+    margin: 0 20px 0 20px;
+}
 .fourth-links {
     /* outline: var(--outline); */
     font-size: 40px;
