@@ -23,6 +23,14 @@ button {
     border-radius: 10px;
     margin: 50px 0 50px 70px;
 }
+#middle-button {
+    border-radius: 10px;
+    position: relative;
+    width: 220px;
+    height: 60px;
+    top: 270px;
+    padding: 5px 0 10px 0;
+}
 div {
     outline: var(--outline);
     text-align: center;
@@ -39,17 +47,26 @@ div {
     height: 550px;
     margin: 20px 50px 0 60px;
 }
+#middle-features {
+    /* outline: var(--outline); */
+    padding: 10px 40px 40px 40px;
+    position: relative;
+    top: -50px;
+    font-size: 20px;
+    line-height: 45px;
+    color: gray;
+}
 .right {
     float: right;
-    width: 25%;
-    height: 520px;
+    width: 500px;
+    height: 490px;
     margin: 20px 450px 0 0;
     background-color: black; 
 }
 #right-paragraph {
     /* outline: var(--outline); */
     position: absolute;
-    bottom: 80px;
+    bottom: 100px;
     text-align: left;
     width: 300px;
     font-size: 25px;
@@ -66,15 +83,15 @@ footer {
 #left-footer {
     /* outline: var(--outline); */
     position: relative;
-    top: 220px;
-    left: -125px;
+    top: 100px;
+    left: -100px;
     font-size: 20px;
 }
-#right-heading {
+#left-heading {
     /* outline: var(--outline); */
     position: relative;
-    left: -95px;
-    top: 140px;
+    left: -70px;
+    top: 10px;
 }
 #white-square {
     outline: var(--outline);
@@ -82,5 +99,22 @@ footer {
     width: 100px;
     height: 100px;
     position: relative;
-    top: 60px;
+    top: 110px;
+}
+section {
+    /* outline: var(--outline); */
+    position: relative;
+    top: 25px;
+}
+#black-circle {
+    border-radius: 100px;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 40px;
+    background-color: black;
+}
+#left-black-background {
+    background-color: black;
+    height: 320px;
 }
