@@ -23,18 +23,18 @@ h1 {
 }
 nav {
     /* outline: var(--outline); */
-    margin: -36px 0 0 0;
+    margin: -68px 0 0 0;
     font-size: 22px;
 }
 .fourth-links {
     /* outline: var(--outline); */
-    margin: 10px 20px;
-    font-size: 30px;
+    font-size: 40px;
+    margin: 0 10px 0 10px;
 }
 .right-button {
     position: absolute;
     right: 10px;
-    margin: -70px 0 0 0;
+    margin: -95px 0 0 0;
     border-radius: 5px;
     width: 200px;
     height: 100px;
@@ -46,10 +46,19 @@ nav {
 .white-button {
     background-color: whitesmoke;
 }
+.last {
+    position: absolute;
+    right: 10px;
+    margin: -75px 0 0 0;
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+}
 span {
     font-size: 30px;
-
 }
-.heading {
-    /* outline: var(--outline); */
+section {
+     /* outline: var(--outline); */
+     font-size: 45px;
+     margin: -20px 0 0 0;
 }
